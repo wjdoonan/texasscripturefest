@@ -1,0 +1,112 @@
+<DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="Texas Scriptorium Logo (1).png">
+        <title>Texas Scriptorium | Passages</title>
+        <meta name="keywords" content="texas, scriptorium, John">
+        <meta name="description" content="texas scriptorium">
+        <meta name="veiwpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="texasscriptoriumstylesheet.css">
+        <link rel="stylesheet" href="modal.css">
+        <script src="https://kit.fontawesome.com/536dad5a0d.js" crossorigin="anonymous"></script>
+        <style>
+            button {
+                background-color: white;
+                border: 2px solid black;
+                border-radius: 12px;
+            }
+            button:hover {
+                background-color: rgb(154, 154, 154);
+                border: 2px solid black;
+                border-radius: 12px;
+            }
+        </style>
+    </head>
+    <body onload="newElemen()">
+        <section class="s"><br>
+            <h1 style="text-align: center;">The Book of John</h1><br><hr style="background-color: rgb(255, 255, 255);border: none;">
+            <div class="tad"><!--<img src="Copy of Texas Scriptorium Logo.png">-->
+            <div><br>
+                    <form style="text-align: center;">
+                        <input type="text" id="myInput" placeholder="name"><br><br>
+                        <input type="email" id="john 1.3" placeholder="youremail@email.com"><br><br>
+                        <input type="button" class="mybtn" id="john 1.0" onclick="newElement()" value="recite">
+                    </form>
+            <table>
+                <input list="passages">
+                <datalist id="passages">
+                    <option><span id="John1">John 1:1-14</span> (14 verses)</option>
+                    <option><span id="John2">John 1:15-28</span> (14 verses)</option>
+                    <option><span id="John3">John 1:29-34</span> (6 verses)</option>
+                    <option><span id="John4">John 1:35-51</span> (17 verses)</option>
+                    <option><span id="John5">John 2:1-25</span> (25 verses)</option>
+                    <option><span id="John6">John 3:1-21</span> (21 verses)</option>
+                    <option><span id="John7">John 3:22-36</span> (15 verses)</option>
+                    <option><span id="John8">John 4:1-42</span> (42 verses)</option>
+                    <option><span id="John9">John 4:43-54</span> (11 verses)</option>
+                    <option><span id="John10">John 5:1-15</span> (15 verses)</option>
+                    <option><span id="John11">John 5:16-24</span> (9 verses)</option>
+                    <option><span id="John12">John 5:25-41</span> (17 verses)</option>
+                    <option><span id="John13">John 5:42-47</span> (6 verses)</option>
+                    <option><span id="John14">John 6:1-15</span> (15 verses)</option>
+                    <option><span id="John15">John 6:16-24</span> (9 verses)</option>
+                    <option><span id="John16">John 6:25-33</span> (9 verses)</option>
+                    <option><span id="John17">John 6:39-40</span> (2 verses)</option>
+                    <option><span id="John18">John 6:41-46</span> (6 verses)</option>
+                    <option><span id="John19">John 6:47-59</span> (13 verses)</option>
+                    <option><span id="John20">John 6:60-71</span> (12 verses)</option>
+                    <option><span id="John21">John 7:1-10</span> (10 verses)</option>
+                    <option><span id="John22">John 7:11-24</span> (14 verses)</option>
+                    <option><span id="John23">John 7:25-44</span> (20 verses)</option>
+                    <option><span id="John24">John 7:45-53</span> (9 verses)</option>
+                    <option><span id="John25">John 8:1-11</span> (11 verses)</option>
+                    <option><span id="John26">John 8:12-30</span> (19 verses)</option>
+                    <option><span id="John27">John 8:31-59</span> (28 verses)</option>
+                    <option><span id="John28">John 9:1-23</span> (23 verses)</option>
+                    <option><span id="John29">John 9:24-41</span> (18 verses)</option>
+                    <option><span id="John30">John 10:1-21</span> (21 verses)</option>
+                    <option><span id="John31">John 10:22-42</span> (21 verses)</option>
+                    <option><span id="John32">John 11:1-19</span> (19 verses)</option>
+                    <option><span id="John33">John 11:20-44</span> (25 verses)</option>
+                    <option><span id="John34">John 11:45-57</span> (12 verses)</option>
+                    <option><span id="John35">John 12:1-11</span> (11 verses)</option>
+                    <option><span id="John36">John 12:12-22</span> (11 verses)</option>
+                    <option><span id="John37">John 12:23-36</span> (14 verses)</option>
+                    <option><span id="John38">John 12:37-50</span> (14 verses)</option>
+                    <option><span id="John39">John 13:1-17</span> (17 verses)</option>
+                    <option><span id="John40">John 13:18-30</span> (13 verses)</option>
+                    <option><span id="John41">John 13:31-38</span> (8 verses)</option>
+                    <option><span id="John42">John 14:1-14</span> (14 verses)</option>
+                    <option><span id="John43">John 14:15-20</span> (6 verses)</option>
+                    <option><span id="John44">John 14:21-33</span> (11 verses)</option>
+                    <option><span id="John45">John 15</span> (27 verses)</h3></option>             
+                    <option><span id="John46">John 16:1-16</span> (16 verses)</option>
+                    <option><span id="John47">John 16:17-33</span> (17 verses)</option>
+                    <option><span id="John48">John 17:1-5</span> (5 verses)</option>
+                    <option><span id="John49">John 17:6-19</span> (14 verses)</option>
+                    <option><span id="John50">John 17:20-26</span> (7 verses)</option>
+                    <option><span id="John51">John 18:1-11</span> (11 verses)</option>
+                    <option><span id="John52">John 18:12-18</span> (7 verses)</option>
+                    <option><span id="John53">John 18:19-27</span> (9 verses)</option>
+                    <option><span id="John54">John 18:28-40</span> (13 verses)</option>
+                    <option><span id="John55">John 19:1-16</span> (16 verses)</option>
+                    <option><span id="John56">John 19:17-27</span> (11 verses)</option>
+                    <option><span id="John57">John 19:28-42</span> (15 verses)</option>
+                    <option><span id="John58">John 20:1-9</span> (9 verses)</option>
+                    <option><span id="John59">John 20:10-31</span> (22 verses)</option>
+                    <option><span id="John60">John 21:1-14</span> (14 verses)</option>
+                    <option><span id="John61">John 22:15-25</span> (11 verses)</option>
+                </datalist>
+                
+
+                
+            </table>
+                    
+            </div>
+            </div>
+            <br>
+        </section>
+        <script src="scriptorium script (1).js"></script>
+    </body>
+</html>

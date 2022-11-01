@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="Texas Scriptorium Logo (1).png">
+        <title>Texas Scripture Fest | countdown</title>
+        <meta name="keywords" content="texas, scripture fest">
+        <meta name="description" content="texas scripture fest">
+        <meta name="veiwpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="texasscriptoriumstylesheet.css">
+        <script src="https://kit.fontawesome.com/1849893713.js" crossorigin="anonymous"></script>
+    </head>
+    <body onload="typeWritter()" style="align-items:center;display:flex">
+      
+        <section class="section" style="color: white;align-self: center;hieght: 100%;"><br>
+            <!--<i style="font-size: 6vw;" class="fas fa-stopwatch"></i>--><h1 class="sectionh1" id="r"></h1>
+        </section>
+        <script>
+                var day = "days";
+                var hour = "hours";
+                var minute = "minutes";
+                var secound = "seconds";
+            var countDownDate = new Date("July 29, 2023 10:00:00").getTime();
+            var x = setInterval(function() {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                var milliseconds = Math.floor((distance % (1000)));
+                if (days == 1) {
+                    day = "day"
+                }
+                if (hours == 1) {
+                    hour = "hour"
+                }
+                if (minutes == 1) {
+                    minute = "minute"
+                }
+                if (secound == 1) {
+                    seconds = "second"
+                }
+                document.getElementById("r").innerHTML = days + " " + day + " " + hours + " " + hour + " " + minutes + " " + minute + " <br> " + seconds + " " + secound + " " + millisecounds + " milisecounds <br>" + " until the Texas Scripture Fest!";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("r").innerHTML = "The Texas Scripture Fest Is Now Here!!!!!!";
+                }
+            })
+            
+        </script>
+    </body>
+</html>

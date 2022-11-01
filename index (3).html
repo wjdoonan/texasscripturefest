@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="Texas Scriptorium Logo (1).png">
+        <title>Texas ScriptureFest</title>
+        <meta name="keywords" content="texas, scripture fest">
+        <meta name="description" content="texas scripture fest">
+        <meta name="veiwpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="texasscripturefeststylesheet.css">
+        <style>
+            
+        </style>
+    </head>
+    <body onload="typeWritter(); register();">
+         <audio autoplay loop>
+              <source type="audio/mpeg" src="06 - Be Thou My Vision (Rop tú mo Baile).mp3">
+          </audio>
+          <!--<div class="warning" style="background-color: red;">Registration ends on, August 6</div>-->
+        <header>
+            
+            <h1 class="headerh1"><img style="height: 45px; width: auto;margin-top: 35px;" alt="Texas" src="texas sc.png"> ScriptureFest</h1>
+            <h1 style="color:black;">July 29, 2023</h1>
+            <h2 class="headerh2"><a id="x" TITLE="Visit Scripturefest.com" target="_blank" href="https://scripturefest.com" class="nava"></a></h2>
+            <h2 class="headerh2"><nav><br>
+                <a class="nava" style="background-color: white" href="http://TexasScripturefest.com/index.html">Texas ScriptureFest</a>
+                <a class="nava" TITLE="Visit TexasScripturefest.com/location.html" href="http://TexasScripturefest.com/location (1).html">Location</a>
+                <a class="nava" TITLE="Visit TexasScripturefest.com.com/passages.html" href="http://TexasScripturefest.com/passegas.html">Passages</a>
+            <br><br></nav><br><br></h2>
+        </header><br>
+<h1><p style="color: white;background-color: red;opacity: 60%;"><br>Theme TBD<br><br></p></h1>
+        <!--<br><br><br><br>--><br><br><br><br>
+        <section class="section2"><br>
+            <h1 style="color:white;font-size:3vw;">What is a ScriptureFest??</h1>
+            <p style="color:white;font-size:2vw;">ScriptureFest is a wonderful opportunity to come together with the body of Christ and to recite God's Holy Word.  ScriptureFest challenges you and your family to memorize God's Word and to proclaim His Word to others.  It is edifying to all whether you are coming to participate or are coming to just listen.  It is also a wonderful time of fellowship with other believers.  This special event brings people from all over together in order to spur each other on in the Word!  It will encourage your family to spend time in the Word of God which in turn brings life to your heart, mind, and spirit.  Come and enjoy this special time with us! </p>
+        <br>
+        <br></section><br><br>
+        <!--<section class="section3">
+        <img class="haederimg" margin src="texas picture.png">
+        </section><br>
+        <section class="section2"><br>
+            <img class="img2" style="margin-top: 3%;margin-left: 1%;" src="texas senery.png" alt="senery of texas">
+            <img class="img2" style="float: right;margin-right: 2%;" src="texas capitol.png" alt="the capitol of texas">
+            <img class="img2" style="margin-top: 10%;margin: 20px;" src="alamo.png" alt="the alamo"><br><br>
+        </section>-->
+        <script src="scriptorium script (1).js"></script>
+        <section class="section" style="color: white;"><br>
+        <!--<i style="font-size: 6vw;" class="fas">&#xf017;</i>--><h1 class="sectionh1" id="r"></h1>
+        </section>
+        <section style="width: 70%;background-color: white;color: red;">
+            <!--<h1>Registration is now closed.</h1>-->
+            <h1>Registration: will open soon!</h1>
+            <!--<p>Do you want to attend the Texas ScriptureFest?<br>Fill out this form and you will<br> be on your way to the <br><img src="texas cutout.png" style="height: 55px; width: auto;" alt="Texas!!">Scriptorium<!--Registration is temporarily closed due to maintenace. Registration will be back up in less than 24 hours.</p><hr class="sectionhr"><br><br>-->
+            <!--<a class="nana" TITLE="Register for the Texas Scriptorium"  href="http://texasscripturefest.com/Texas%20Scriptorium%20registration%20form.html" style="height: 50px; width: 10%;" target="_parent">Register Here</a><br><!--<h2>We are sorry for any inconvenience this has caused.</h2><p style="font-size:29px;color:blue;">There is a limit of one passage per individual/family/group at this time. We will open up additional passages once the majority of people have had an opportunity to make a selection. You may divide up the verses however you chose within a passage assignment. We want to encourage all who want to recite to have the option. Thank you for understanding.</p><br>-->
+        </section>
+        <section style="width: 70%;background-color: white;color: red;">
+            <h1>Got Questions? <br>We Got Answers!</h1>
+            <!--<p>Click here to ask a question.</p>--><hr class="sectionhr"><br>
+            <a class="nana" href="http://texasscripturefest.com/support.html" style="height: 50px; width: 10%;">Click here</a><br><br>
+        </section><br><br>
+        <script>
+            var day = "days";
+                var hour = "hours";
+                var minute = "minutes";
+                var secound = "seconds";
+            var countDownDate = new Date("July 29, 2023 10:00:00").getTime();
+            var x = setInterval(function() {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                if (days == 1) {
+                    day = "day"
+                }
+                if (hours == 1) {
+                    hour = "hour"
+                }
+                if (minutes == 1) {
+                    minute = "minute"
+                }
+                if (secound == 1) {
+                    seconds = "second"
+                }
+                document.getElementById("r").innerHTML = days + " " + day + " " + hours + " " + hour + " " + minutes + " " + minute + " <br> " + seconds + " " + secound + " until the Texas ScriptureFest!";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("r").innerHTML = "The Texas ScriptureFest Is Now Here!!!!!!";
+                }
+            })
+        </script>
+        <a style="display:none;" href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=8058544&style=0005&nbdigits=5&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>          
+    
+</script>
+    </body>
+</html>

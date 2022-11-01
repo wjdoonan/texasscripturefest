@@ -1,0 +1,261 @@
+@import url("https://use.typekit.net/div3bfo.css");
+* {
+    font-family: drunk-cowboy, sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+header {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    background-size: cover;
+    opacity: 80%;
+    position: relative;
+}
+.jrin {
+    color: red;
+    size: 20px;
+}
+
+.headerh1 {
+    text-align: center;
+    font-family: drunk-cowboy, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 12px 6px 12px 6px;
+    font-size: 50px;
+}
+.headerh1:nth-child(odd) {
+    color: red;
+}
+.headerh2 {
+    text-align: center;
+    font-family: drunk-cowboy, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 12px 6px 12px 6px;
+}
+.haederimg {
+    width: 49%;
+    height: auto;
+}
+nav {
+   color: rgb(0, 0, 0); 
+   background-color: red;
+   text-align: center;
+}
+.nava {
+    color: rgb(0, 0, 0);
+    background-color: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 6px 12px 6px;
+}
+a:hover {
+    background-color: rgb(181, 180, 180);
+}
+a:active {
+    background-color: white;
+    color: red;
+}
+section {
+    border-radius: 0px;
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 3vw;
+    align-self: center;
+    align-items: center;
+    margin: auto;
+    height: inherit;
+    opacity: 70%;
+}
+.s {
+    border-radius: 0px;
+    background-color: red;
+    color: white;
+    width: 70%;
+    height: fit-content;
+    text-align: left;
+    font-size: large;
+    align-self: center;
+    align-items: center;
+    margin: auto;
+    height: inherit;
+    padding: 0% 5% 0% 5%;
+}
+.section2 {
+    border-radius: 0px;
+    background-color: red;
+    color: rgb(118, 81, 50);
+    margin-left: 0%;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: large;
+    opacity: 60%;
+    potition: relative;
+    text-emphasis: bold;
+}
+.section3 {
+    border-radius: 0px;
+    background-color: blue;
+    color: rgb(115, 103, 36);
+    margin-left: auto;
+    width: 90%;
+    height: fit-content;
+    text-align: center;
+    font-size: large;
+    margin-top: 5%;
+    opacity: 60%;
+    text-emphasis: bold;
+}
+.sectionh1 {
+    padding: 12px 6px 12px 6px;
+}
+.aside1 {
+    float: left;
+    width: 20%;
+    height: auto;
+}
+.aside2 {
+    float: right;
+    width: 22%;
+    height: auto;
+}
+.img1 {
+    border-radius: 0px;
+    width: 50%;
+    margin-right: 45%;
+    opacity: 100%;
+}
+body {
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    background-image: url('IMG_0173.JPG');
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-clip: border-box;
+    background-position: top;
+    margin: 0px;
+    margin-top:-34px;
+}
+.img2 {
+    border-radius: 0px;
+    width: 44%;
+    border: 5px solid red;
+    rotate: 12px;
+    margin: auto;
+}
+input[type=text]:active {
+    color: rgb(42, 141, 71);
+    border: 1px solid rgb(255, 255, 255);
+}
+input[type=submit] {
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+hr {
+    background-color: red;
+    height: 5px;
+    border-radius: 0px;
+    width: 80%;
+}
+.sectionhr {
+    background-color: blue;
+    height: 5px;
+    border-radius: 0px;
+    width: 80%;
+}
+.nana {
+    background-color: white;
+    color: red;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 12px 12px 12px 12px ;
+    border: 1px black solid;
+}
+
+.image-container {
+    background-image: url("25524821 (2).jpg"); /* The image used - important! */
+    background-size: 50%;
+    position: relative; /* Needed to position the cutout text in the middle of the image */
+    height: auto; /* Some height */
+  }
+  
+  .text {
+    background-color: white;
+    color: black;
+    font-size: 40vw; /* Responsive font size */
+    font-weight: bold;
+    margin: auto; /* Center the text container */
+    padding: 10px;
+    width: 100%;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+  }
+  .pr {
+      text-align: center;
+      color: black;
+      background-color: rgb(255, 255, 255);
+      padding: 12px 6px 12px 6px;
+      border-radius: 0px;
+      width: 46%;
+      margin-left: 50%;
+      font-size: 1.6vw;
+      margin-top: -33%;
+      height: fit-content;
+  }
+  .ph {
+      left: 1%;
+  }
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      border: 10px solid rgb(255, 255, 255);
+      border-radius: 24px;
+      
+  }
+  td, th {
+      text-align: center;
+      padding: 0px;
+  }
+  tr {
+      background-color: rgb(255, 255, 255);
+      color: red;
+      height: fit-content;
+  }
+  tr:nth-child(even) {
+      color: white;
+      background-color: blue;
+  }
+  .tad {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      overflow: scroll;
+  }
+ @media only screen and (max-width:1500px) {
+    
+}
+@media only screen and (min-width:1000px) {
+    .hbr {
+        display:none;
+    }
+}
