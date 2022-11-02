@@ -36,5 +36,5 @@ var speed = 100;
   
   var linkOne = document.createElement("link")
   linkOne.setAttribute("rel", "stylesheet")
-  linkOne.setAttribute("href", "Styles/texasscripturefeststylesheet.css")
+  linkOne.setAttribute("href", "wjdoonan.github.io/texasscripturefest/Styles/texasscripturefeststylesheet.css")
 }
